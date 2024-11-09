@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
 import 'News.dart';
+import 'Video.dart';
 import 'extra.dart';
 
 class Newshome extends StatefulWidget {
@@ -22,7 +23,7 @@ class _NewshomeState extends State<Newshome> {
     News() ,
 
 
-    Extra(),
+    Video(),
     News(),
     Extra()
   ];
